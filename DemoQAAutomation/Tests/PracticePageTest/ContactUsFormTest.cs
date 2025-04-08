@@ -13,9 +13,8 @@ namespace DemoQAAutomation.Tests.PracticePageTest
         {
             string name = "Tommy";
             string email = "tommy@yahoo.com";
-            DateOnly dateOfBirth = new(1998, 1, 12);
+            DateOnly dateOfBirth = new(2000, 1, 12);
           
-
             _ContactUsFormPage.MainPracticeButton();
             Thread.Sleep(1000);
             _ContactUsFormPage.MainContactUsButton();
